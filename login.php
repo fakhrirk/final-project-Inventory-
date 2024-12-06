@@ -113,7 +113,7 @@
 							else if ($data['level'] == 'admin' && $level == 'admin') {
 								$_SESSION['admin'] =$data['id'];
 								
-								header("Location:index.php");
+								header("Location:index3.php");
 							}
 							else if ($data['level'] == 'petugas' && $level == 'petugas') {
 								$_SESSION['petugas'] =$data['id'];
